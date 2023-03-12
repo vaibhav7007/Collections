@@ -8,7 +8,7 @@ namespace Collections
         {
             Console.WriteLine("Welcome to Collection programs");
             Console.WriteLine("Please enter an option");
-            Console.WriteLine("1:List Demo\n2:Dictionary Demo");
+            Console.WriteLine("1:List Demo\n2:Dictionary Demo\n3:SortedList Demo");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -17,6 +17,9 @@ namespace Collections
                     break;
                 case 2:
                     DictionaryDemo.Dictionary();
+                    break;
+                case 3:
+                    SortedListDemo.SortedList();
                     break;
                 default:
                     Console.WriteLine("Please enter right option");
