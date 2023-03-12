@@ -11,7 +11,7 @@ namespace Collections
         public static void SortedList()
         {
             SortedList<string, string> sortedList = new SortedList<string, string>();
-            sortedList.Add("a", "Shivani");
+            sortedList.Add("a", "Vaibhav");
             sortedList.Add("k", "Malhar");
             sortedList.Add("s", "Shraddha");
             sortedList.Add("d", "Dadu");
